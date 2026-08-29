@@ -61,6 +61,29 @@ public final class EEAnimations {
     public static final RawAnimation BITER_WINGS_FLAPPING = RawAnimation.begin().thenLoop("wings_flapping");
     public static final RawAnimation BITER_DIE = RawAnimation.begin().then("die", Animation.LoopType.PLAY_ONCE);
 
+    // Gallant
+    private static final RawAnimation DORMANT = RawAnimation.begin().thenPlay("dormant");
+    private static final RawAnimation DORMANT_NO_SHIELD = RawAnimation.begin().thenPlay("dormant_no_shield");
+    private static final RawAnimation AWAKEN = RawAnimation.begin().thenPlay("awaken");
+    private static final RawAnimation AWAKEN_NO_SHIELD = RawAnimation.begin().thenPlay("awaken_no_shield");
+    private static final RawAnimation IDLE_NO_SHIELD = RawAnimation.begin().thenPlay("idle_no_shield");
+    private static final RawAnimation RAAAHG = RawAnimation.begin().thenPlay("raaahg");
+    private static final RawAnimation RAAAHG_NO_SHIELD = RawAnimation.begin().thenPlay("raaahg_no_shield");
+    private static final RawAnimation WALK_NO_SHIELD = RawAnimation.begin().thenPlay("walk_no_shield");
+    private static final RawAnimation SPRINT_NO_SHIELD = RawAnimation.begin().thenPlay("sprint_no_shield");
+    private static final RawAnimation SPRINT_ATTACK = RawAnimation.begin().thenPlay("sprint_attack");
+    private static final RawAnimation DASH_NO_SHIELD = RawAnimation.begin().thenPlay("dash_no_shield");
+    private static final RawAnimation DASH_ATTACK = RawAnimation.begin().thenPlay("dash_attack");
+    private static final RawAnimation BLOCKED = RawAnimation.begin().thenPlay("blocked");
+    private static final RawAnimation BLOCKED_NO_SHIELD = RawAnimation.begin().thenPlay("blocked_no_shield");
+    private static final RawAnimation PARRY = RawAnimation.begin().thenPlay("parry");
+    private static final RawAnimation PARRIED = RawAnimation.begin().thenPlay("parried");
+    private static final RawAnimation VULNERABLE = RawAnimation.begin().thenPlay("vulnerable");
+    private static final RawAnimation HIT_VULNERABLE = RawAnimation.begin().thenPlay("hit_vulnerable");
+    private static final RawAnimation RESET = RawAnimation.begin().thenPlay("reset");
+    private static final RawAnimation DEATH = RawAnimation.begin().thenPlay("death");
+
+
     private EEAnimations() {
     }
 }
